@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testimonial {
+    max-width: 500px;
+    min-width: 400px;
+    height: 100px;
+    background-color: rgba(59,130,246,.5);
+    padding: 70px 20px;
+    color: #fff;
+    font-family: cursive;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+.text {
+    line-height: 1.6;
+}
+img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: -50px;
+    transform: translateX(-50%);
+    border-radius: 50%;
+}
