@@ -1,0 +1,40 @@
+body {
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+}
+.content {
+    background-color: #008899;
+    padding: 30px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+    width: 400px;
+}
+.input {
+    width: 90%;
+    height: 50px;
+    border: none;
+    resize: none;
+    outline: none;
+    height: 80px;
+    padding: 10px;
+}
+::placeholder {
+    font-size: 16px;
+}
+.container-count {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.count {
+    color: rgb(109, 109, 189);
+    font-size: 18px;
+}
+.total-count {
+    color: red;
+    font-size: 18px;
+}
