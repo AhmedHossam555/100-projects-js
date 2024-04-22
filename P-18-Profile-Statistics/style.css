@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #008899;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: cursive;
+}
+.container {
+    display: flex;
+    gap: 20px;
+}
+@media(max-width: 991px){
+    .container {
+        flex-direction: column;
+    }
+}
+.box {
+    padding: 20px;
+    border: 2px dotted #fff;
+    text-align: center;
+    position: relative;
+    min-width: 200px;
+}
+.counter {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+h4 {
+    margin: 0;
+    letter-spacing: 1.5px;
+}
+.icon {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -30px;
+}
