@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left bottom,lightgreen, lightblue);
+    font-family:monospace;
+    height: 100vh;
+}
+* {
+    box-sizing: border-box;
+}
+.container {
+    background-color: rgba(255,255,255,0.3);
+    padding: 20px;
+    min-height: 250px;
+    min-width: 400px;
+    max-width: 750px;
+}
+.container div {
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    letter-spacing: 2px;
+}
+input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.3);
+    border: 1px solid rgba(255,255,255,0.1);
+    font-size: 18px;
+}
+label {
+    margin: 10px 0;
+}
+button {
+    width: 100%;
+    margin: 15px 0;
+    padding: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    font-size: 20px;
+    background-color: lightgreen;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+button:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    opacity: 0.9;
+}
+.calores {
+    width: 100%;
+    min-height: 35px;
+    background-color: rgba(255,255,255,0.3);
+    border: 1px solid rgba(255,255,255,0.1);
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+.conditional {
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #333;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
