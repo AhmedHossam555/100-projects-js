@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    background-color: darkblue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    gap: 40px;
+    font-family: cursive;
+}
+h2 {
+    font-weight: 300;
+    font-size: 18px;
+}
+.count-x,.count-y {
+    padding: 20px;
+    border: 1px solid #fff;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+}
