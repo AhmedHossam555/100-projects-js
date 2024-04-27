@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+}
+h1 {
+    font-size: 40px;
+}
+.dice {
+    font-size: 100px; 
+}
+.animation-dice {
+    animation: dice-frame 1s forwards  2 ;
+}
+@keyframes dice-frame {
+    0% {
+        transform: rotateY(0) rotateX(0deg);
+    }
+    100% {
+        transform: rotateY(720deg) rotateX(720deg);
+    }
+}
+.btn-dice {
+    background-color: #40bccc;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s background-color;
+}
+.btn-dice:hover {
+    background-color: #44cee0;
+}
+.history {
+    padding: 0;
+    list-style: none;
+    max-width: 400px;
+    margin: 20px auto;
+}
+ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #eceaea;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+ul li span {
+    font-size: 30px;
+}
